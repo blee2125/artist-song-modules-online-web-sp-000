@@ -8,5 +8,9 @@ module Memorable
   def self.count
     self.all.count
   end
-  
+
+end
+
+class Artist
+  extend Memorable
 end
