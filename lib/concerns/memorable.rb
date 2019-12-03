@@ -9,12 +9,9 @@ module Memorable
       all.count
     end
   end
-end
 
-class Artist
-  extend Memorable
-end
+  module InstanceMethods
 
-class Song
-  extend Memorable
+  end
+  
 end
