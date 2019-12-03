@@ -6,10 +6,3 @@ module Findable
 
 end
 
-class Artist
-  extend Findable
-end
-
-class Song
-  extend Findable
-end
